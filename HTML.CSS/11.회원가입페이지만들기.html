@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html로 회원가입페이지 만들기</title>
+  </head>
+  <body>
+    <form>
+      <h2>이메일로 가입</h2>
+      <div><label for="email-input">이메일</label></div>
+      <div>
+        <!-- required : 값이 꼭 들어와야만 입력이 되는 태그(?) -->
+        <input
+          id="email-input"
+          required
+          placeholder="이메일 주소를 입력해주세요"
+          type="email"
+        />
+      </div>
+
+      <div>
+        <label for="pw-input">비밀번호</label>
+      </div>
+      <div>
+        <input
+          id="pw-input"
+          required
+          placeholder="비밀번호 입력해주세요"
+          type="password"
+        />
+      </div>
+
+      <div><label for="pw-input2">비밀번호 확인</label></div>
+      <div>
+        <input
+          id="pw-input2"
+          required
+          placeholder="비밀번호 입력해주세요"
+          type="password"
+        />
+      </div>
+
+      <div><label for="name-input">이름</label></div>
+      <div>
+        <input
+          id="name-input"
+          required
+          placeholder="이름을 입력해주세요"
+          type="text"
+        />
+      </div>
+
+      <div><label for="phone-input">휴대폰 번호</label></div>
+      <div>
+        <input
+          id="phone-input"
+          required
+          placeholder="휴대폰 번호를 입력해주세요"
+          type="number"
+        />
+      </div>
+
+      <div>
+        <label for="checkbox-input">여기를 체크해주세요</label>
+        <input id="checkbox-input" required type="checkbox" />
+      </div>
+
+      <!-- 제출버튼 -->
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex 연습</title>
+    <style>
+      body {
+        border: 1px solid gray;
+        /* display: flex; */
+      }
+
+      /* 플렉스 방향 바꾸기
+       flex-direction: column;
+
+      가로축 기준 정렬
+       justify-content: center;
+       세로축 기준 정렬
+      /align-items: center;
+      } */
+
+      main {
+        position: relative;
+        width: 200px;
+        height: 500px;
+      }
+
+      div {
+        /* display: inline-block; */
+        width: 50px;
+        height: 50px;
+        background-color: tomato;
+        /* position: absolute; */
+
+        /* 플로팅바 만들기 좋은 */
+        position: fixed;
+        right: 30px;
+        bottom: 200px;
+        /* top: 10px; */
+        /* left: 10px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>글쓰기</div>
+    </main>
+
+    <!-- 플렉스모드 -->
+    <!-- 플렉스는 가로방향이 메인축, 세로방향이 cross-axis -->
+    <!-- <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div> -->
+  </body>
+</html>
