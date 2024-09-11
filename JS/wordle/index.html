@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>wordle게임 만들기</title>
-    <link rel="stylesheet" href="/basicTheory/JS/wordle/css/main.css" />
+    <link rel="stylesheet" href="/basicTheory/JS/wordle/css/style.css" />
   </head>
   <body>
     <header>
-      <!-- 스스로 해보기 -->
-      <div class="header-column">
+      <div class="header-column bar">
         <div class="header-icon">
           <img src="/basicTheory/JS/wordle/assets/menu.svg" alt=""/>
         </div>
       </div>
       <div class="header-title">Wordle</div>
-      <div class="header-column">
+      <div class="header-column right-icon">
         <div class="header-icon">
           <img src="/basicTheory/JS/wordle/assets/question.svg" alt=""/>
+          <img src="/basicTheory/JS/wordle/assets/chart.svg" alt=""/>
+          <img src="/basicTheory/JS/wordle/assets/settings.svg" alt="">
         </div>
       </div>
-      <div class="header-icon"></div>
     </header>
 
     <main>
@@ -101,22 +101,11 @@
         <div class="keyboard-column" data-key="B">B</div>
         <div class="keyboard-column" data-key="N">N</div>
         <div class="keyboard-column" data-key="M">M</div>
-        <div class="keyboard-column" data-key="BACK">
-          <div class="back-space-icon"></div>
-            <svg
-              xmls="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="#000"
-              class="w-6 h-6"
-            >
-              <!-- <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 9.75L14.25" 12m0 012.25 2.25M14.25 1212.25-2  ></path> -->
-            </svg>
-      </div>
+        <div class="keyboard-column back" data-key="BACK">
+          <!-- <div class="back-space-icon back"> -->
+            <img src="/basicTheory/JS/wordle/assets/backspace.svg" alt="">
+          <!-- </div> -->
+        </div>
     </footer>
     <script src="/basicTheory/JS/wordle/js/index.js"></script>
   </body>

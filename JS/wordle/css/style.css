@@ -1,0 +1,8 @@
+@import "/basicTheory/JS/wordle/css/reset.css";
+@import "/basicTheory/JS/wordle/css/header.css";
+@import "/basicTheory/JS/wordle/css/main.css";
+@import "/basicTheory/JS/wordle/css/footer.css";
+
+body {
+  width: 100vw;
+}
