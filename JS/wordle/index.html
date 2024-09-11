@@ -10,11 +10,15 @@
     <header>
       <!-- 스스로 해보기 -->
       <div class="header-column">
-        <div class="header-icon"></div>
+        <div class="header-icon">
+          <img src="/basicTheory/JS/wordle/assets/menu.svg" alt=""/>
+        </div>
       </div>
       <div class="header-title">Wordle</div>
       <div class="header-column">
-        <div class="header-icon"></div>
+        <div class="header-icon">
+          <img src="/basicTheory/JS/wordle/assets/question.svg" alt=""/>
+        </div>
       </div>
       <div class="header-icon"></div>
     </header>
@@ -36,32 +40,32 @@
         <div class="board-column" data-index="14"></div>
       </div>
       <div class="board-row row-2">
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
+        <div class="board-column" data-index="20"></div>
+        <div class="board-column" data-index="21"></div>
+        <div class="board-column" data-index="22"></div>
+        <div class="board-column" data-index="23"></div>
+        <div class="board-column" data-index="24"></div>
       </div>
       <div class="board-row row-3">
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
+        <div class="board-column" data-index="30"></div>
+        <div class="board-column" data-index="31"></div>
+        <div class="board-column" data-index="32"></div>
+        <div class="board-column" data-index="33"></div>
+        <div class="board-column" data-index="34"></div>
       </div>
       <div class="board-row row-4">
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
+        <div class="board-column" data-index="40"></div>
+        <div class="board-column" data-index="41"></div>
+        <div class="board-column" data-index="42"></div>
+        <div class="board-column" data-index="43"></div>
+        <div class="board-column" data-index="44"></div>
       </div>
       <div class="board-row row-5">
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
+        <div class="board-column" data-index="50"></div>
+        <div class="board-column" data-index="51"></div>
+        <div class="board-column" data-index="52"></div>
+        <div class="board-column" data-index="53"></div>
+        <div class="board-column" data-index="54"></div>
       </div>
     </main>
     <footer>
@@ -89,7 +93,7 @@
         <div class="keyboard-column" data-key="L">L</div>
       </div>
       <div class="keyboard-row row-3">
-        <div class="keyboard-column" data-key="ENTER">ENTER</div>
+        <div class="keyboard-column wide" data-key="ENTER">ENTER</div>
         <div class="keyboard-column" data-key="Z">Z</div>
         <div class="keyboard-column" data-key="X">X</div>
         <div class="keyboard-column" data-key="C">C</div>
@@ -97,7 +101,21 @@
         <div class="keyboard-column" data-key="B">B</div>
         <div class="keyboard-column" data-key="N">N</div>
         <div class="keyboard-column" data-key="M">M</div>
-        <div class="keyboard-column" data-key="BACKSPACE">BACK</div>
+        <div class="keyboard-column" data-key="BACK">
+          <div class="back-space-icon"></div>
+            <svg
+              xmls="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#000"
+              class="w-6 h-6"
+            >
+              <!-- <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 9.75L14.25" 12m0 012.25 2.25M14.25 1212.25-2  ></path> -->
+            </svg>
       </div>
     </footer>
     <script src="/basicTheory/JS/wordle/js/index.js"></script>
